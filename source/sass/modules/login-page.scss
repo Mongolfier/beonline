@@ -1,0 +1,123 @@
+.login-page {
+  background-image: url("../../img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "segoe";
+  color: #ffffff;
+}
+
+.login-form {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 510px;
+  background: inherit;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 2rem;
+  box-sizing: border-box;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.3);
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: inherit;
+    box-shadow: inset 0 0 2000px rgba(255,255,255,.2);
+    filter: blur(10px);
+    margin: -40px;
+  }
+}
+
+.login-form-header {
+  text-align: center;
+  text-transform: capitalize;
+  @include font-height(36px, 36px);
+  position: relative;
+  margin: 49px 0 151px 0;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -48px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-image: url("../../img/authorization-icon.svg");
+  }
+}
+
+.form-login {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../../img/pencil-icon.svg");
+  }
+}
+
+.form-password {
+  position: relative;
+  margin-top: 45px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 22px;
+    height: 30px;
+    background-image: url("../../img/password-icon.svg");
+  }
+}
+
+.form-login-input, .form-password-input {
+  box-sizing: border-box;
+  margin-left: 28px;
+  padding-left: 32px;
+  width: 420px;
+  background: transparent;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  font-family: inherit;
+  @include font-height(25px, 36px);
+}
+
+.form-login-input::-webkit-input-placeholder {color:#ffffff; opacity:1;}
+.form-login-input::-moz-placeholder          {color:#ffffff; opacity:1;}
+.form-login-input:-moz-placeholder           {color:#ffffff; opacity:1;}
+.form-login-input:-ms-input-placeholder      {color:#ffffff; opacity:1;}
+.form-password-input::-webkit-input-placeholder {color:#ffffff; opacity:1;}
+.form-password-input::-moz-placeholder          {color:#ffffff; opacity:1;}
+.form-password-input:-moz-placeholder           {color:#ffffff; opacity:1;}
+.form-password-input:-ms-input-placeholder      {color:#ffffff; opacity:1;}
+
+.form-send-button {
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 26px;
+  display: block;
+  width: 250px;
+  color: #ffffff;
+  border: none;
+  background-color: #47b2c4;
+  border-radius: 14px;
+  @include font-height(30px, 30px);
+  padding: 11px 0 15px 0;
+}
+
+.login-span-registration {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 13px;
+  a {
+    text-decoration: none;
+    color: #47b2c4;
+  }
+}
