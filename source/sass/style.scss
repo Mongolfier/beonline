@@ -3,9 +3,8 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "container.scss";
-@import "modules/page-header.scss";
-@import "modules/main-navigation.scss";
 @import "modules/login-page.scss";
+@import "modules/main-header.scss";
 
 body {
   margin: 0;

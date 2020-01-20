@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="20" viewBox="0 0 15 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebebeb;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1514" y="18" width="15" height="20" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="1.732" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.23"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset" dx="0.5" dy="0.866"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_user" data-name="icon user" class="cls-1" d="M1521.5,26.5a4.253,4.253,0,1,0-4.4-4.251A4.328,4.328,0,0,0,1521.5,26.5Zm1.87,0.29h-3.74A5.548,5.548,0,0,0,1514,32.23v4.411l0.01,0.069,0.31,0.1A26.5,26.5,0,0,0,1521.98,38a16.162,16.162,0,0,0,6.69-1.213l0.3-.144H1529V32.23A5.548,5.548,0,0,0,1523.37,26.787Z" transform="translate(-1514 -18)"/>
+</svg>

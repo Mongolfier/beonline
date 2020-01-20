@@ -2,3 +2,8 @@
   font-size: $font-size;
   line-height: $line-height;
 }
+
+@mixin width-height($width, $height) {
+  width: $width;
+  height: $height;
+}
