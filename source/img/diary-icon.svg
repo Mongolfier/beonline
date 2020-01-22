@@ -1,20 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="20" viewBox="0 0 16 20">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #ebebeb;
-        fill-rule: evenodd;
-        filter: url(#filter);
-      }
-    </style>
-    <filter id="filter" x="1352" y="18" width="16" height="20" filterUnits="userSpaceOnUse">
-      <feGaussianBlur result="blur" stdDeviation="1.732" in="SourceAlpha"/>
-      <feFlood result="flood" flood-opacity="0.23"/>
-      <feComposite result="composite" operator="out" in2="blur"/>
-      <feOffset result="offset" dx="0.5" dy="0.866"/>
-      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
-      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
-    </filter>
-  </defs>
-  <path id="icon_diary" data-name="icon diary" class="cls-1" d="M1354.43,19.667H1368V18h-13.6a2.456,2.456,0,0,0-2.4,2.49V35.5a2.459,2.459,0,0,0,2.4,2.5h12.8a0.82,0.82,0,0,0,.8-0.833V21.333h-4v3.99a0.4,0.4,0,0,1-.68.292l-0.92-.948-0.92.958a0.4,0.4,0,0,1-.68-0.292v-4h-6.4a0.819,0.819,0,0,1-.8-0.833V20.448A0.833,0.833,0,0,1,1354.43,19.667Zm2.37,10h6.4v1.667h-6.4V29.667Zm0,3.333h6.4v1.667h-6.4V33Z" transform="translate(-1352 -18)"/>
+<svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20">
+  <path d="M1354.43,19.667H1368V18h-13.6a2.456,2.456,0,0,0-2.4,2.49V35.5a2.459,2.459,0,0,0,2.4,2.5h12.8a0.82,0.82,0,0,0,.8-0.833V21.333h-4v3.99a0.4,0.4,0,0,1-.68.292l-0.92-.948-0.92.958a0.4,0.4,0,0,1-.68-0.292v-4h-6.4a0.819,0.819,0,0,1-.8-0.833V20.448A0.833,0.833,0,0,1,1354.43,19.667Zm2.37,10h6.4v1.667h-6.4V29.667Zm0,3.333h6.4v1.667h-6.4V33Z" transform="translate(-1352 -18)"/>
 </svg>
