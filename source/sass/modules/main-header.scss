@@ -28,14 +28,6 @@
   background-image: url("../../img/logo.svg");
 }
 
-.header-wrapper {
-  width: 262px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: auto;
-}
-
 .header-login {
   margin-left: 32px;
   color: #51c8b4;
@@ -68,17 +60,20 @@
   }
 }
 
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
 .icon {
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.main-icon-wrapper {
-  width: 260px;
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.header-wrapper .icon {
+  margin-left: 20px;
 }
 
 .header {
