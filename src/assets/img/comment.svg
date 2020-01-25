@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="18" viewBox="0 0 20 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1c3c4;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1134" y="678" width="20" height="18" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="1.732" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.1"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset" dx="0.5" dy="0.866"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Comment_" data-name="Comment " class="cls-1" d="M1151.25,678h-14.5a2.721,2.721,0,0,0-2.75,2.69v8.681a2.723,2.723,0,0,0,2.74,2.689V696l5.79-3.939h8.72a2.721,2.721,0,0,0,2.75-2.69V680.69A2.721,2.721,0,0,0,1151.25,678Zm-2.6,10.088h-9.3v-1.146h9.3v1.146Zm0-2.445h-9.3V684.5h9.3v1.147Zm0-2.446h-9.3v-1.146h9.3V683.2Z" transform="translate(-1134 -678)"/>
+</svg>

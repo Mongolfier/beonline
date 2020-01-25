@@ -1,9 +1,16 @@
 .new-post-input {
-  width: 100%;
+  width: 720px;
+  margin-left: 110px;
+  margin-bottom: 26px;
+  box-sizing: border-box;
   border-radius: 5px;
   border: 1px solid #ffffff;
   box-shadow: 2px 2px 9px rgba(0,0,0,.08);
   @include font-height(14px, 18px);
   padding: 15.5px 10px 15.5px 39px;
   font-family: inherit;
+}
+
+.main-new-post {
+  /*border-bottom: 1px solid #c1c3c4;*/
 }

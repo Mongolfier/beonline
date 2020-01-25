@@ -1,0 +1,101 @@
+.aside-column {
+  width: 350px;
+  margin-left: auto;
+}
+
+.user-rating,
+.group-rating {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 9px rgba(0,0,0,0.08);
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.user-rating-header,
+.group-rating-header {
+  color: #ffffff;
+  margin: 0;
+  padding: 15px 0 14px 46px;
+  @include font-height(16px, 16px);
+}
+
+.user-rating-header {
+  background: linear-gradient(90deg, #7de2d7, #d2f4e9);
+}
+
+.group-rating-header {
+  background: linear-gradient(90deg, #7de294, #d6f4d2);
+}
+
+.user-rating-item,
+.group-rating-item {
+  width :100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid rgba(140,248,232,0.3);
+  position: relative;
+}
+
+.rating-item-num {
+  padding: 0;
+  margin: 0 25px 0 23px;
+  color: rgba(71,71,71,0.23);
+  font-family: "gothamProBold";
+  @include font-height(36px, 36px);
+}
+
+.rating-first {
+  @include font-height(60px, 60px);
+  margin: 0 15px;
+  margin-left: 11px;
+}
+
+.user-rating-avatar,
+.group-rating-avatar {
+  margin-right: 10px;
+}
+
+.user-rating-nickname,
+.group-rating-nickname {
+  @include font-height(18px, 18px);
+  font-family: "gothamProBold";
+  color: #474747;
+  text-decoration: none;
+}
+
+.user-rating-status,
+.group-rating-status {
+  margin: 0;
+}
+
+.user-rating-read,
+.group-rating-read {
+  position: absolute;
+  right: 20px;
+  bottom: 8px;
+  color: #b7b7b7;
+  @include font-height(10px, 10px);
+}
+
+.user-rating-more-btn,
+.group-rating-more-btn {
+  background: transparent;
+  padding: 8px 12px 8px 18px;
+  position: relative;
+  color: #b7b7b7;
+  cursor: pointer;
+  border: none;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 8px;
+    height: 4px;
+    background-image: url("../assets/img/arrow-down.svg");
+  }
+}

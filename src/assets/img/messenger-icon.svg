@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="19.969" viewBox="0 0 25 19.969">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebebeb;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1432" y="18" width="25" height="19.969" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="1.732" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.23"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset" dx="0.5" dy="0.866"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_messangare" data-name="icon messangare" class="cls-1" d="M1455.9,22.293h-5.66V29.46a1.917,1.917,0,0,1-1.93,1.893h-8.72v2.4a1.089,1.089,0,0,0,1.1,1.081h8.57l3.58,2.933c0.46,0.383.71,0.225,0.56-.351l-0.7-2.564c0-.006-0.01-0.011-0.01-0.017h3.21a1.089,1.089,0,0,0,1.1-1.081V23.374A1.089,1.089,0,0,0,1455.9,22.293Zm-22.8,8.248h1.69a0.017,0.017,0,0,0-.01.017l-0.7,2.564c-0.1.363-.04,0.56,0.14,0.56a0.729,0.729,0,0,0,.42-0.209l3.58-2.933h10.09a1.089,1.089,0,0,0,1.1-1.081V19.081a1.089,1.089,0,0,0-1.1-1.081H1433.1a1.089,1.089,0,0,0-1.1,1.081V29.46A1.089,1.089,0,0,0,1433.1,30.541Z" transform="translate(-1432 -18)"/>
+</svg>

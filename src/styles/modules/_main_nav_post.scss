@@ -1,0 +1,65 @@
+.main-nav-post {
+  width: 720px;
+  margin-left: auto;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #c1c3c4;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 6px;
+  box-sizing: border-box;
+}
+
+.nav-post-link {
+  display: block;
+  margin-left: 10px;
+  height: 100%;
+  text-decoration: none;
+  font-family: "gothamProMedium", "Arial", sans-serif;
+  @include font-height(10px, 10px);
+  color: rgba(103, 103, 103, 0.5);
+}
+
+.nav-post-link.active {
+  color: #676767;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #676767;
+    bottom: -6px;
+    left: 0;
+  }
+}
+
+.nav-post-button-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-post-button {
+  display: block;
+  position: relative;
+  padding-right: 13px;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  font-family: "gothamProMedium", "Arial", sans-serif;
+  @include font-height(10px, 10px);
+  color: #c1c3c4;
+  cursor: pointer;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 8px;
+    height: 4px;
+    background-image: url("../assets/img/arrow-down.svg");
+  }
+}
+
+.main-get-time {
+  display: block;
+}

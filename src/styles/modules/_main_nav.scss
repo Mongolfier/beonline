@@ -1,0 +1,45 @@
+.navigation {
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(123,123,123,0.2);
+}
+
+.navigation-list {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-family: "gothamProBold";
+  @include font-height(12px, 12px);
+  color: #676767;
+}
+
+.navigation-link {
+  padding: 16px 0 14px 0;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #676767;
+  &:hover {
+    color: #2f4658;
+  }
+}
+
+.navigation-active {
+  cursor: default;
+  color: #2f4658;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2f4658;
+  }
+}

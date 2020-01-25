@@ -1,0 +1,148 @@
+.header {
+  width: 100%;
+  /*border-bottom: 1px solid #676767;*/
+}
+
+.main-background-top {
+  width: 100%;
+  height: 57px;
+  /* Даш, вот тута у меня вопрос. По сути я сделал жесткий контейнер и весь остальной контент вываливается overflow
+  Но ничего лучше я не придумал */
+  background-color: #2f4658;
+}
+
+.header-top {
+  width: 100%;
+  height: 57px;
+  background-color: #2f4658;
+  font-family: "centuryGothic";
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.main-logo {
+  width: 28px;
+  height: 42px;
+  background-image: url("../assets/img/logo.svg");
+}
+
+.header-login {
+  margin-left: 32px;
+  color: #51c8b4;
+  text-decoration: none;
+  @include font-height(13px, 13px);
+}
+
+.header-search {
+  width: 238px;
+  padding: 9px 25px;
+  margin-left: 20px;
+  @include font-height(12px, 12px);
+  background-color: transparent;
+  border: 1px solid rgba(229,229,229,0.8);
+  border-radius: 5px;
+  color: rgba(229,229,229,0.8);
+}
+
+.search-wrapper {
+  margin-left: 39px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 15px;
+    height: 15px;
+    background-image: url("../assets/img/search-icon.svg");
+    background-size: 15px 15px;
+  }
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.header {
+  &-home {
+    @include width-height(21px, 20px);
+    background-image: url("../assets/img/home-icon.svg");
+    margin-left: 20px;
+  }
+
+  &-diary {
+    @include width-height(16px, 20px);
+    background-image: url("../assets/img/diary-icon.svg");
+    margin-left: 20px;
+  }
+
+  &-group {
+    @include width-height(24px, 20px);
+    background-image: url("../assets/img/group-icon.svg");
+    margin-left: 20px;
+  }
+
+  &-messenger {
+    @include width-height(25px, 20px);
+    background-image: url("../assets/img/messenger-icon.svg");
+    margin-left: 20px;
+    position: relative;
+  }
+
+  &-bell {
+    @include width-height(17px, 20px);
+    background-image: url("../assets/img/bell-icon.svg");
+    margin-left: 20px;
+    position: relative;
+  }
+
+  &-user {
+    @include width-height(15px, 20px);
+    background-image: url("../assets/img/user-icon.svg");
+    margin-left: 20px;
+  }
+
+  &-pen {
+    @include width-height(20px, 20px);
+    background-image: url("../assets/img/pen-icon.svg");
+    margin-left: 20px;
+  }
+}
+
+.header-home + .icon {
+  
+}
+
+.header-active {
+  padding: 3px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+}
+
+.new-alert-bell,
+.new-alert-message {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  width: 16px;
+  height: 16px;
+  background-color: #ff3d3d;
+  border-radius: 50%;
+  @include font-height(10px, 10px);
+  font-family: "gothamProBlack";
+  color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 3px;
+}
